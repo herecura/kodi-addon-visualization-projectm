@@ -2,8 +2,8 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-addon-visualization-projectm
-_commit=a962015
-pkgver=20170516.a962015
+_commit=09037cb
+pkgver=20170518.09037cb
 pkgrel=1
 pkgdesc="ProjectM visualizer for Kodi"
 arch=('i686' 'x86_64')
