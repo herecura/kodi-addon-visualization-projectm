@@ -3,7 +3,7 @@
 pkgname=kodi-addon-visualization-projectm
 epoch=1
 pkgver=2.1.0
-pkgrel=4
+pkgrel=5
 pkgdesc="ProjectM visualizer for Kodi"
 arch=('x86_64')
 url='https://github.com/xbmc/visualization.projectm'
@@ -21,7 +21,8 @@ build() {
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=Release \
         -DBUILD_SHARED_LIBS=1 \
-        -DUSE_LTO=1
+        -DUSE_LTO=1 \
+        .
     make
 }
 
